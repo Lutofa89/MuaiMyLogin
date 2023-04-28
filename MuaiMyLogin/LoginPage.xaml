@@ -11,9 +11,12 @@
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
+        <Path Stroke="#000"  Data="m194.5,53.21003l405.00001,0l0,208.51456c-163.5,81 -227.5,85.35158 -405.00001,15.67455l0,-224.18911z" Fill="#2ecc71"/>
+
+
         <StackLayout>
             <Frame BackgroundColor="SkyBlue" HeightRequest="60" WidthRequest="60" CornerRadius="30" Padding="0" Margin="0,100,0,0" HorizontalOptions="Center">
-                <Image Source="https://www.findool.com/images/avatars/avatar.png" Aspect="AspectFill" Margin="0"/>
+                <Image Source="https://www.findool.com/images/avatars/avatar.jpg" Aspect="AspectFill" Margin="0"/>
             </Frame>
         </StackLayout>
 
