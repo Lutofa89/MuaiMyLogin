@@ -1,4 +1,6 @@
-﻿namespace MuaiMyLogin;
+﻿using MuaiMyLogin.Model;
+
+namespace MuaiMyLogin;
 
 public partial class App : Application
 {
