@@ -37,6 +37,14 @@
             <Label Grid.Row="2" Text="Sign in to continu" HorizontalOptions="Center" FontSize="Subtitle"/>
         </Grid>
 
+        <StackLayout Grid.Row="3" Orientation="Vertical" HorizontalOptions="CenterAndExpand">
+            <Frame BackgroundColor="Transparent" BorderColor="LightGreen" Padding="0" HorizontalOptions="FillAndExpand" CornerRadius="30">
+                <Image Source="https://cdn4.iconfinder.com/data/icons/glyphs/24/incons_user2-256.png" Aspect="AspectFill" Margin="0"/>
+            </Frame>
+            <Entry Text="{Binding UserName}" Placeholder="UserName" TextColor="Black" FontAttributes="Bold" VerticalOptions="Center" HorizontalOptions="FillAndExpand" Margin="0,0,20,0"/>
+
+
+        </StackLayout>
 
     </Grid>
     
