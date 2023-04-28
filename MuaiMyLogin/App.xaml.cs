@@ -2,6 +2,7 @@
 
 public partial class App : Application
 {
+	public static UserInfo userInfo;
 	public App()
 	{
 		InitializeComponent();
