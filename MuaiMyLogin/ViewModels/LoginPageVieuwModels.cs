@@ -13,5 +13,10 @@ namespace MuaiMyLogin.ViewModels
         [ObservableProgperty]
         private string _password;
 
+        [Icommand]
+        public async void Login()
+        {
+
+        }
     }
 }
